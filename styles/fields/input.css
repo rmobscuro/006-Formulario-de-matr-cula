@@ -23,7 +23,7 @@ input:focus, select:focus, textarea:focus, input[type="date"]:focus-within {
 input[type="date"] {
   position: relative;
 
-  &::webkit-calendar-picker-indicator {
+  &::-webkit-calendar-picker-indicator {
     opacity: 0;
   }
 
